@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  font-style: 1.6rem;
+  padding: 10px 20px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 60%);
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.add-btn {
+  margin: auto;
+  background-color: hsl(125, 47%, 54%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+}
+.add-btn:hover {
+  transition: background-color 0.6s ease;
+  background-color: hsl(125, 47%, 44%);
+}
+
+button {
+  padding: 5px 15px;
+  font-weight: bolder;
+  border: 2px solid hsla(0, 0%, 50%, 0.685);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.6s ease;
+}
+
+ol {
+  margin-top: 10px;
+  list-style: none;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px;
+  background: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  /* text-decoration: line-through; */
+}
+.tasks-text {
+  flex: 1;
+}
+
+li button {
+  margin-left: 10px;
+  /* padding: 5px 15px; */
+  font-size: 1.8rem;
+}
+.delete-list-btn {
+  color: hsl(10, 90%, 50%);
+}
+
+.delete-list-btn:hover {
+  color: hsl(10, 90%, 40%);
+}
+.complete-task-btn {
+  color: hsl(125, 47%, 54%);
+}
+
+.complete-task-btn:hover {
+  color: hsl(125, 47%, 44%);
+}
